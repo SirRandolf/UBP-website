@@ -389,7 +389,7 @@ span {
   font-weight: 400;
   font-size: 14px;
   outline: none;
-  letter-spacing: 0;
+  letter-spacing: 1;
   transition: 0.3s;
 }
 
@@ -1224,6 +1224,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #blog .block-blog img {
   width: 100%;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
 }
 
 #blog .block-blog .content-blog {
@@ -1231,6 +1232,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   display: inline-block;
   min-height: 55px;
   padding: 20px 10px;
+  backgroud: #e6e8ed;
   width: 100%;
 }
 
@@ -1757,6 +1759,7 @@ pre {
     font-weight: 100;
     letter-spacing: 2px;
     margin-bottom: 20px;
+      margin-top: 25px;
     text-transform: capitalize;
   }
 
